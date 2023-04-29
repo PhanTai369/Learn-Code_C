@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include <conio.h>
+int main(){
+	long n, t;
+	int dem;
+	printf("\nnhap n: ");
+	scanf("%d", &n);
+	dem = 0;
+	t = n;
+	while(t !=0){
+		dem++;
+		t/=10;
+		}
+		printf("\n%d", dem);
+		getch();
+	
+	return 0;
+	}
